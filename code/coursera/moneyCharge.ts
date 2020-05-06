@@ -9,11 +9,13 @@ export function moneyCharge(money, coins) {
             return charge;
         }
         const element = coins[index];
-        if(money > element){
+        if(money >= element){
             var remainder = Math.floor(money/element);
             charge.push({count: remainder, value: element});
             money = money - remainder * element;
         }
     }
+
+    return charge;
 }
 

@@ -10,12 +10,13 @@ function moneyCharge(money, coins) {
             return charge;
         }
         var element = coins[index];
-        if (money > element) {
+        if (money >= element) {
             var remainder = Math.floor(money / element);
             charge.push({ count: remainder, value: element });
             money = money - remainder * element;
         }
     }
+    return charge;
 }
 exports.moneyCharge = moneyCharge;
 //# sourceMappingURL=moneyCharge.js.map

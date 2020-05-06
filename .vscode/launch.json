@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "TestGcd",
+            "program": "${workspaceFolder}/tests/testGcd.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "TestBinaryTree",
+            "program": "${workspaceFolder}/tests/testBinaryTree.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "TestStack",
+            "program": "${workspaceFolder}/tests/TestStack.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testListNode",
+            "program": "${workspaceFolder}/tests/leetcode/testListNode.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testLongestSubstring",
+            "program": "${workspaceFolder}/tests/leetcode/testLongestSubstring.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testRunFindIndex",
+            "program": "${workspaceFolder}/tests/ya/testFindIndex.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testAVeryBigSum",
+            "program": "${workspaceFolder}/tests/facebook/testAVeryBigSum.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testDesignerPdfViewer",
+            "program": "${workspaceFolder}/tests/facebook/testDesignerPdfViewer.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testRotationLeft",
+            "program": "${workspaceFolder}/tests/facebook/testRotationLeft.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testMoneyCharge",
+            "program": "${workspaceFolder}/tests/coursera/testMoneyCharge.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        }
+    ]
+}

@@ -1,5 +1,3 @@
-//moneyCharge
-
 import {Result} from "../types/result";
 import { moneyCharge } from "../../code/coursera/moneyCharge";
 
@@ -7,11 +5,13 @@ class ​Test​ {
     public static testMoneyCharge(): boolean{
         let testArr = [
             new Result<number>(() => {
-                var money = 26;
-                var coins = "1 2 5 10 100".split(" ");
+                var money = 40;
+                var coins = "1 5 10 20 25".split(" ").map(x => +x);
                 var result = moneyCharge(money, coins);
-                return result.reduce((res, current) => res + ` ${current.value}: ${current.count}`);
-            }, "10: 2")
+                var res = "\n" + result.map((current) => `${current.value}: ${current.count}`).join('\n');
+                console.log(res);
+                return result.reduce((sum, current) => sum + current.value * current.count, 0);
+            }, 40)
         ];
 
         let isOk: boolean = true;

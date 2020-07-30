@@ -93,6 +93,24 @@
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testMaxPairwiseProduct",
+            "program": "${workspaceFolder}/tests/coursera/testMaxPairwiseProduct.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testGcd",
+            "program": "${workspaceFolder}/tests/coursera/testGcd.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
         }
     ]
 }

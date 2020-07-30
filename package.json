@@ -1,0 +1,26 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Algorithms from coursera, facebook, leetcode and yandex with tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elianart/algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elianart/algorithms/issues"
+  },
+  "homepage": "https://github.com/elianart/algorithms#readme",
+  "dependencies": {
+    "@types/node": "^14.0.1",
+    "require": "^2.4.20"
+  }
+}
